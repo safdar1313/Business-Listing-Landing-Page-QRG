@@ -1,0 +1,17 @@
+.functionStyle{
+    background-color: rgb(253, 88, 59);
+    width: 50%;
+    margin-left: 25%;
+    padding: 50px 10px;
+    display: flex;
+    font-size: 18px;
+    border-radius: 0 0 70px 70px;
+    font-weight: bolder;
+    color: #3a3333;
+    border: 15px solid rgb(255, 38, 0);
+}
+body{
+    background-color: cadetblue;
+    border: 50px solid rgb(0, 247, 255);
+    height: 80vh;
+}

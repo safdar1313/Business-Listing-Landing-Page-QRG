@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.headerUl{
+    list-style: none;
+    background-color: brown;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 21px;
+}
