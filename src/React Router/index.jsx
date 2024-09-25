@@ -1,21 +1,23 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
-function Home(){
+function Index(){
     return(
         <div>
             <ul className="headerUl">
-                <Link>
+                <Link to={"/HomePage"}>
+                    <li>Home</li>
+                </Link>
+                <Link to= {"/about"}>
                     <li>About US</li>
                 </Link>
-                <Link>
+                <Link to={"/services"}>
                     <li>Services</li>
                 </Link>
-                <Link>
-                    <li>Contact US</li>
-                </Link>
+                
             </ul>
         </div>
     )
 }
-export default Home;
+export default Index;

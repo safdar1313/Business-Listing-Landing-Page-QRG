@@ -4,9 +4,19 @@
 .headerUl{
     list-style: none;
     background-color: brown;
-    color: #fff;
     display: flex;
     justify-content: space-around;
     padding: 30px;
     font-size: 21px;
+}
+.headerUl li{
+    color: #fff;
+}
+.home-div{
+    background-color: #a09292;
+    /* width: 100%; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
